@@ -1,0 +1,25 @@
+Power BI Inflation Analysis: Journeying Through Global Economic Terrain
+
+🟨 Objective:
+To develop an interactive Power BI dashboard and accompanying report that analyses global inflation patterns , enabling strategic decision-making for stakeholders.
+
+🟩 Approach & Solution:
+•	Collect inflation data from reliable sources (World Bank, IMF, etc.)
+•	Clean, reshape, and standardize data using Power BI Power Query
+•	Create calculated columns (YoY Change, Volatility Index, etc.)
+•	Design visuals (trend lines, bar charts, maps) for comparisons and storytelling
+•	Provide recommendations based on insights
+
+🟥 Technical Architecture (Summary):
+•	Data Sources: World Bank, IMF, CSV/Excel (fallback: user-uploaded dataset)
+•	Tools Used: Power BI, Excel, Python (optional), GitHub
+•	Data Modelling: Star schema (Country-Dimension, Time-Dimension, Inflation-Fact)
+•	Visualizations: Line chart (trend), bar chart (top 10), map (regional view), slicers
+•	Deployment: Dashboard + report + GitHub repository + optional demo video
+
+🟦 Challenges & Mitigation:
+Challenge	Mitigation Approach
+Non-standard formats	              Power Query transformations
+Missing historical data	              Apply filters and document data gaps
+Interdependencies across regions	              Add context with global events/timelines
+
